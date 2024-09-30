@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+}
+
+.row + .row {
+    margin-block-start: 16px;
+}
+
+.title {
+    width: 150px;
+}
+
+.surname {
+    flex-grow: 1;
+    margin-inline-end: 8px;
+}
+
+.firstname {
+    flex-grow: 1;
+}
+
+.email {
+    flex-grow: 1;
+}
+
+.username {
+    flex-grow: 1;
+}
+
+.password {
+    flex-grow: 1;
+}
